@@ -1,12 +1,35 @@
-h1 {
-    color: #27aedb;
+.app {
     text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
+  }
+  
+  .category-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .category-buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dish-list {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
+  }
+  
+  .dish-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .dish-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
