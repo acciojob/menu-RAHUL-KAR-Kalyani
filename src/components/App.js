@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { dishes } from './Data';
-import DishList from './components/DishList';
-import CategoryButtons from './components/CategoryButtons';
+import DishList from './DishList';
+import CategoryButtons from './CategoryButtons';
 
 const categories = ['all', ...new Set(dishes.map(dish => dish.category))];
 
